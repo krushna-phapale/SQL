@@ -1,18 +1,3 @@
-/*
-	Data Analyst Job Postings
-	SQL Author: Jaime M. Shaker
-	Dataset Creator: Luke Barousse (https://www.linkedin.com/in/luke-b/) (https://www.youtube.com/@LukeBarousse)
-	Dataset Location: https://www.kaggle.com/datasets/lukebarousse/data-analyst-job-postings-google-search
-	Email: jaime.m.shaker@gmail.com or jaime@shaker.dev
-	Website: https://www.shaker.dev
-	LinkedIn: https://www.linkedin.com/in/jaime-shaker/
-	
-	File Name: build_tables.sql
-	Description:  This script will import data from the CSV files and create the 
-	schema, tables and table relationships for this project.  Once it is complete, 
-	it will drop any unecessary schemas and tables.
-*/
-
 -- Create an schema and table for importing data
 DROP SCHEMA import_data CASCADE;
 CREATE SCHEMA IF NOT EXISTS import_data;
